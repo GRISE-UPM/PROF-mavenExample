@@ -3,11 +3,11 @@ package es.upm.grise.profundizacion.mavenExample;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class AppTest {
+public class AppIT {
 
 	@Test
 	public void test() {
-		//fail("Not yet implemented");
+		fail("Not yet implemented");
 	}
 
 }
