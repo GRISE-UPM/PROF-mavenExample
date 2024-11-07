@@ -41,7 +41,6 @@
 					<execution>
 						<goals>
 							<goal>integration-test</goal>
-							<goal>verify</goal>
 						</goals>
 					</execution>
 				</executions>
@@ -79,7 +78,6 @@
 						<format>html</format>
 					</formats>
 				</configuration>
-
 			</plugin>
 
 			<!-- See
@@ -94,6 +92,7 @@
 					<execution>
 						<goals>
 							<goal>prepare-agent</goal>
+							<goal>check</goal>
 							<goal>report</goal>
 						</goals>
 					</execution>

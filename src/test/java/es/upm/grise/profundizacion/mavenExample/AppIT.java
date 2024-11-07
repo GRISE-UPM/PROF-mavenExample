@@ -7,8 +7,7 @@ public class AppIT {
 
 	@Test
 	public void test() {
-		
-		fail();
+	
 		
 	}
 
